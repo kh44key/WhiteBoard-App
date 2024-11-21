@@ -1,34 +1,60 @@
-# Collaborative Whiteboard with Drawing and Undo/Redo
+# 🎨 Collaborative Whiteboard with Drawing and Undo/Redo
 
-## Overview
-This is a **Collaborative Whiteboard** project built in C++. It allows multiple users to draw on a shared whiteboard and includes support for **Undo** and **Redo** functionalities.
+## 🚀 Overview  
+This is a **Collaborative Whiteboard** project built in **C++**. It enables multiple users to draw on a shared whiteboard with features like **Undo** and **Redo** for seamless collaboration.
 
-## Features
-- Collaborative drawing in real time.
-- Undo and Redo actions for drawn elements.
-- Clean and minimalistic interface.
+---
 
-## Tools & Libraries
-- **C++** for core development.
+## ✨ Features  
+✔️ **Collaborative Drawing** in real-time  
+✔️ **Undo & Redo** actions for modifying elements  
+✔️ Clean and **minimalistic interface**  
 
-## How to Use
-1. Clone the repository:
+---
+
+## 🛠️ Tools & Libraries  
+- 🖥️ **C++** for core development  
+- ⚙️ [Libraries Pending..]
+
+---
+
+## ⚡ How to Use  
+1. **Clone the repository**:  
    ```bash
    git clone https://github.com/kh44key/WhiteBoard-App.git
    ```
-2. Compile the code using a C++ compiler (e.g., `g++` or `clang`):
+2. **Compile the project**:  
    ```bash
    g++ -o whiteboard main.cpp
    ```
-3. Run the application:
+3. **Run the application**:  
    ```bash
    ./whiteboard
    ```
 
-## Contributors
-- [Muhammad Abdullah Tarar](https://github.com/Tarar123-cpu)  
-- [Ahmad Faraz Awan](https://github.com/farazawan)  
-- [Muhammad Ali Oun](https://github.com/alioun0)  
-- [Muhammad Saad Hanif](https://github.com/Saadmaliikk)  
-- [Sardar Hasnain](https://github.com/h4sn4in)  
+---
+
+## 👥 Contributors  
+💡 Developed by a passionate team of collaborators:  
+- [Muhammad Abdullah Tarar](https://github.com/Tarar123-cpu) 🌟  
+- [Faraz Ahmad Awan](https://github.com/farazawan) 🚀  
+- [Muhammad Ali Oun](https://github.com/alioun0) 🌟  
+- [Muhammad Saad Hanif](https://github.com/Saadmaliikk) 🚀  
+- [Sardar Husnain Saudezai](https://github.com/h4sn4in) 🌟  
+
+---
+
+## 💡 Future Improvements  
+📌 Add advanced drawing tools (e.g., shapes, text).  
+📌 Implement real-time collaborative editing using sockets or a web framework.  
+
+---
+
+## 📜 License  
+This project is licensed under the **MIT License**.  
+
+---
+
+Made with ❤️ by the team!
+```
 
