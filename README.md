@@ -1,5 +1,3 @@
-
-```markdown
 # Collaborative Whiteboard with Drawing and Undo/Redo
 
 ## Overview
