@@ -31,5 +31,4 @@ This is a **Collaborative Whiteboard** project built in C++. It allows multiple 
 - [Muhammad Ali Oun](https://github.com/alioun0)  
 - [Muhammad Saad Hanif](https://github.com/Saadmaliikk)  
 - [Sardar Hasnain](https://github.com/h4sn4in)  
-```
 
