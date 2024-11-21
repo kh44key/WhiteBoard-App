@@ -46,13 +46,6 @@ This is a **Collaborative Whiteboard** project built in **C++** using the **SFML
 - **Y**: Redo the last undone action  
 - **C**: Clear the whiteboard
 
----
-
-## 📄 License  
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## ❤️ Made with love by the team:   
 💡 Developed by a passionate team of collaborators:
 - [Saad Ali](https://github.com/kh44key) 🏷
