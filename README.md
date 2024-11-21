@@ -1,20 +1,21 @@
 # 🎨 Collaborative Whiteboard with Drawing and Undo/Redo
 
 ## 🚀 Overview  
-This is a **Collaborative Whiteboard** project built in **C++**. It enables multiple users to draw on a shared whiteboard with features like **Undo** and **Redo** for seamless collaboration.
+This is a **Collaborative Whiteboard** project built in **C++** using the **SFML** library. It enables users to draw on a shared whiteboard with features like **Undo** and **Redo** for seamless interaction.
 
 ---
 
 ## ✨ Features  
-✔️ **Collaborative Drawing** in real-time  
-✔️ **Undo & Redo** actions for modifying elements  
+✔️ **Drawing** on the whiteboard using mouse drag  
+✔️ **Undo & Redo** actions for modifying drawings  
+✔️ **Clear canvas** functionality  
 ✔️ Clean and **minimalistic interface**  
 
 ---
 
 ## 🛠️ Tools & Libraries  
 - 🖥️ **C++** for core development  
-- ⚙️ [Libraries Pending..]
+- ⚙️ **SFML (Simple and Fast Multimedia Library)** for rendering graphics and handling user input  
 
 ---
 
@@ -23,18 +24,36 @@ This is a **Collaborative Whiteboard** project built in **C++**. It enables mult
    ```bash
    git clone https://github.com/kh44key/WhiteBoard-App.git
    ```
-2. **Compile the project**:  
+2. **Install SFML** (if not already installed):  
    ```bash
-   g++ -o whiteboard main.cpp
+   sudo apt update
+   sudo apt install libsfml-dev
    ```
-3. **Run the application**:  
+3. **Compile the project**:  
+   ```bash
+   g++ -o whiteboard main.cpp -lsfml-graphics -lsfml-window -lsfml-system
+   ```
+4. **Run the application**:  
    ```bash
    ./whiteboard
    ```
 
 ---
 
-## 👥 Contributors  
+## 🔧 Key Controls  
+- **Left Click & Drag**: Draw on the whiteboard  
+- **Z**: Undo the last drawing action  
+- **Y**: Redo the last undone action  
+- **C**: Clear the whiteboard
+
+---
+
+## 📄 License  
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## ❤️ Made with love by the team:   
 💡 Developed by a passionate team of collaborators:
 - [Saad Ali](https://github.com/kh44key) 🏷
 - [Muhammad Abdullah Tarar](https://github.com/Tarar123-cpu) 🌟  
@@ -42,12 +61,9 @@ This is a **Collaborative Whiteboard** project built in **C++**. It enables mult
 - [Muhammad Ali Oun](https://github.com/alioun0) 🌟  
 - [Muhammad Saad Hanif](https://github.com/Saadmaliikk) 🚀  
 - [Sardar Hasnain](https://github.com/h4sn4in) 🌟  
-
 ---
 
 ## 💡 Future Improvements  
 📌 Add advanced drawing tools (e.g., shapes, text).  
 📌 Implement real-time collaborative editing using sockets or a web framework.  
-
-Made with ❤️ by the team!
 
