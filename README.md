@@ -48,13 +48,5 @@ This is a **Collaborative Whiteboard** project built in **C++**. It enables mult
 📌 Add advanced drawing tools (e.g., shapes, text).  
 📌 Implement real-time collaborative editing using sockets or a web framework.  
 
----
-
-## 📜 License  
-This project is licensed under the **MIT License**.  
-
----
-
 Made with ❤️ by the team!
-```
 
