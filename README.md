@@ -35,7 +35,8 @@ This is a **Collaborative Whiteboard** project built in **C++**. It enables mult
 ---
 
 ## 👥 Contributors  
-💡 Developed by a passionate team of collaborators:  
+💡 Developed by a passionate team of collaborators:
+- [Saad Ali](https://github.com/kh44key) 🏷
 - [Muhammad Abdullah Tarar](https://github.com/Tarar123-cpu) 🌟  
 - [Faraz Ahmad Awan](https://github.com/farazawan) 🚀  
 - [Muhammad Ali Oun](https://github.com/alioun0) 🌟  
