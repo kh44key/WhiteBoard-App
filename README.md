@@ -27,7 +27,7 @@ To run or build the application, ensure you have the following installed:
 ## Setup Instructions
 ### Cloning the Repository
 ```bash
-git clone https://github.com/your-username/WhiteBoard-App.git
+git clone https://github.com/kh44key/WhiteBoard-App
 cd WhiteBoard-App
 ```
 
