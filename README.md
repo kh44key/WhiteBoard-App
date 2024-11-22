@@ -1,62 +1,56 @@
-# 🎨 Collaborative Whiteboard with Drawing and Undo/Redo
+# Air Draw
 
-## 🚀 Overview  
-This is a **Collaborative Whiteboard** project built in **C++** using the **SFML** library. It enables users to draw on a shared whiteboard with features like **Undo** and **Redo** for seamless interaction.
+Air Draw is a Qt-based whiteboard application that allows users to draw, sketch, and annotate in an interactive and user-friendly interface.
 
----
+## Features
+- Simple and intuitive whiteboard interface.
+- Support for multiple tools like pen, eraser, and shapes.
+- Save and load your drawings.
+- Lightweight and responsive design.
 
-## ✨ Features  
-✔️ **Drawing** on the whiteboard using mouse drag  
-✔️ **Undo & Redo** actions for modifying drawings  
-✔️ **Clear canvas** functionality  
-✔️ Clean and **minimalistic interface**  
+## Project Structure
+The repository consists of the following files and directories:
+- **main.cpp**: Entry point of the application.
+- **mainwindow.cpp** and **mainwindow.h**: Define the main window UI and logic.
+- **whiteboard.cpp** and **whiteboard.h**: Core functionality for the drawing canvas.
+- **media.qrc**: Qt resource file for managing application assets (like icons or images).
+- **resources/**: Contains additional assets such as icons and logos.
+- **whiteboard.pro**: Qt project file for building the application.
+- **build/**: Directory for build files (generated during compilation).
 
----
+## Prerequisites
+To run or build the application, ensure you have the following installed:
+- [Qt Framework](https://www.qt.io/download): Version 5.12 or higher is recommended.
+- A C++ compiler (e.g., GCC or MSVC).
+- CMake (optional, if using a CMake-based build system).
 
-## 🛠️ Tools & Libraries  
-- 🖥️ **C++** for core development  
-- ⚙️ **SFML (Simple and Fast Multimedia Library)** for rendering graphics and handling user input  
+## Setup Instructions
+### Cloning the Repository
+```bash
+git clone https://github.com/your-username/WhiteBoard-App.git
+cd WhiteBoard-App
+```
 
----
+### Building the Application
+1. Open the project in Qt Creator:
+   - Launch **Qt Creator**.
+   - Click on "Open Project" and select the `whiteboard.pro` file.
+2. Configure the project using your desired build kit (e.g., Desktop Qt 5.15.2 GCC 64bit).
+3. Click the "Build" button to compile the application.
+4. Run the application by clicking the "Run" button in Qt Creator.
 
-## ⚡ How to Use  
-1. **Clone the repository**:  
-   ```bash
-   git clone https://github.com/kh44key/WhiteBoard-App.git
-   ```
-2. **Install SFML** (if not already installed):  
-   ```bash
-   sudo apt update
-   sudo apt install libsfml-dev
-   ```
-3. **Compile the project**:  
-   ```bash
-   g++ -o whiteboard main.cpp -lsfml-graphics -lsfml-window -lsfml-system
-   ```
-4. **Run the application**:  
-   ```bash
-   ./whiteboard
-   ```
+Alternatively, you can use the command line:
+```bash
+qmake whiteboard.pro
+make
+./Whiteboard-App
+```
 
----
+### Running the Application
+After building, you can run the application directly from the `build` directory or within Qt Creator.
 
-## 🔧 Key Controls  
-- **Left Click & Drag**: Draw on the whiteboard  
-- **Z**: Undo the last drawing action  
-- **Y**: Redo the last undone action  
-- **C**: Clear the whiteboard
+## Screenshots
+![image](https://github.com/user-attachments/assets/a74045fb-4467-4f60-982d-05245c2008bf)
 
-## ❤️ Made with love by the team:   
-💡 Developed by a passionate team of collaborators:
-- [Saad Ali](https://github.com/kh44key) 🏷
-- [Muhammad Abdullah Tarar](https://github.com/Tarar123-cpu) 🌟  
-- [Ahmad Faraz Awan](https://github.com/faraziii09) 🚀  
-- [Muhammad Ali Oun](https://github.com/alioun0) 🌟  
-- [Muhammad Saad Hanif](https://github.com/Saadmaliikk) 🚀  
-- [Sardar Hasnain](https://github.com/h4sn4in) 🌟  
----
-
-## 💡 Future Improvements  
-📌 Add advanced drawing tools (e.g., shapes, text).  
-📌 Implement real-time collaborative editing using sockets or a web framework.  
-
+## License
+This project is licensed under the MIT License. See the `COPYING` file for details.
