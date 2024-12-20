@@ -51,6 +51,3 @@ After building, you can run the application directly from the `build` directory 
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/a74045fb-4467-4f60-982d-05245c2008bf)
-
-## License
-This project is licensed under the MIT License. See the `COPYING` file for details.
